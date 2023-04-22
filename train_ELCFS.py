@@ -55,7 +55,7 @@ client_num = args.client_num
 max_epoch = args.max_epoch
 display_freq = args.display_freq
 
-client_name = ['client1', 'client2', 'client3', 'client4'
+client_name = ['client1', 'client2', 'client3', 'client4']
 client_data_list = []
 for client_idx in range(client_num):
     client_data_list.append(glob('/research/pheng4/qdliu/dataset/Fundus/{}/processed/npy/*'.format(client_name[client_idx])))
